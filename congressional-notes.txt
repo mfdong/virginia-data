@@ -1,0 +1,7 @@
+notes
+
+Virginia Registration and Turnouts 1976 - 2018:
+https://www.elections.virginia.gov/resultsreports/registration-statistics/registrationturnout-statistics/index.html
+
+downloaded all registration by congressional district, 2013 - july 2019
+

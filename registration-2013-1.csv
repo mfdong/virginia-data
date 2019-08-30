@@ -1,0 +1,2766 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!--[if IE 8]>
+<html class="ie ie8 no-js" lang="en-US">
+
+<style type="text/css">
+
+   .header_container { 
+       background-color:#FFFFFF;       
+    } 
+  .stickymenu {
+ background-color:#FFFFFF; 
+border-bottom:2px solid #CCCCCC;
+}
+
+    </style>
+<![endif]-->
+
+
+
+<title>Error | Virginia Department of Elections</title>
+
+<!--[if lt IE 9]>
+<script src="/wp-content/themes/VASBERedesign/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<meta name="description" content="Error Page">
+<meta name="keywords" content="Error Page">
+<link rel="stylesheet"  href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext" type="text/css" media="all">
+<!--<link rel="stylesheet"  href="/wp-content/themes/VASBERedesign/style.css" type="text/css" media="all">-->
+
+<style>
+
+@font-face {
+	font-family: "fontellotwo";
+	src: url('https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/fontello2.eot');
+	src: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/fontello2.eot?#iefix") format("embedded-opentype"), url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/fontello2.svg") format("svg"), url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/fontello2.woff") format("woff"), url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/fontello2.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+/*************************
+           Layout
+************************* */
+
+a {
+	color:#0276b9;  
+	border: medium none;
+	font-weight: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: #b20000;
+	
+}
+a:visited {
+	color: #751975;  
+}
+a:visited:hover {
+	color: #008a45;
+	
+}
+.clear {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+}
+.content {
+	background-color: #F7F7F7;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 600px;
+	max-width: 2000px;
+	width: 100%;
+	/*background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/parchment.jpg"); */
+}
+body {
+	font-family:  "open_sansregular", sans-serif;
+	font-size: 14px;
+	color:#000;
+	background-color: #eeeeee;
+}
+html {
+ 
+	 
+}
+.content_container {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 670px;
+	width: 1080px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 4px #555555;
+	padding: 15px 50px;
+	border-radius: 10px;
+}
+.breadcrumbs {
+	color: #555555;
+	font-family: "open_sansregular", sans-serif;
+	
+	font-size: 12px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;/*103014*/
+}
+.breadcrumb ul {
+	border: medium none;
+	display: inline;
+	margin-left: 0;
+	padding-bottom: 0 !important;
+}
+.breadcrumb ul li {
+	border: medium none;
+	display: inline;
+	list-style: none outside none;
+	margin-left: 0;
+	padding-left: 2px;
+}
+.breadcrumb ul li:before {
+	content: " Â» ";
+}
+.breadcrumb ul li.first:before {
+	content: " ";
+}
+.breadcrumbs a {
+	color: #555555;
+	text-decoration: underline;
+}
+.breadcrumbs a:visited {
+	color: #555555;
+}
+.footercell, .sidecontainer, .breadcrumbs {
+	display: inline;
+	float: left;
+	margin-left: 5px;
+	margin-right: 0;
+}
+.first {
+	margin-left: 0;
+}
+.last {
+	margin-right: 0;
+}
+.center {
+	text-align: center;
+}
+.vabar {
+	background-color: #000000;
+	width: 100%;
+}
+
+.navbar-search {
+	background-color: #F0F0F0;
+	border: 1px solid #CCCCCC;
+	color: #555555;
+	height: 40px;
+	width: 250px;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.siteSearchBtn {
+	background-color: #202020;
+	border: 1px solid #F8F8F8;
+	color: #FFFFFF;
+	height: 40px;
+	position: relative;
+	text-align: center;
+	width: 40px;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px;
+	-webkit-appearance: none;
+}
+input[type=search] {
+  -webkit-appearance: none;
+}
+.siteSearchBtn:hover {
+	background-color: #0099CC;
+}
+.searchbar {
+	width: 320px;
+	float: right;
+	position: relative;
+	top: -40px; /*modified from original code*/
+	height: 40px;
+}
+.ajaxOverLay {
+	position: absolute;
+	opacity: .10;
+	background-color: #000000;
+	filter: alpha(opacity=10);
+}
+.page_content ul, .content ul, .stats ul {
+	list-style: outside;
+	margin-left: 15px;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px!important;
+	line-height: 25px!important;
+	list-style-type: disc;
+}
+.content > .textcontent > ul > li {
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px!important;
+	line-height: 25px;
+	list-style-type: disc;
+}
+.content> .textcontent > .page_content > ul > li {
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px !important;
+	line-height: 25px !important;
+	list-style-type: disc;
+}
+.page_content {
+	width: 700px;
+}
+.content ul {
+	padding-bottom: 15px;
+}
+.content ul li {
+	padding-bottom: 2px;
+}
+.stats ul li {
+	padding-bottom: 0;
+}
+.content > .textcontent > ul > li > ul {
+	padding-bottom: 0;
+}
+.textcontent > h3 {
+	padding-top: 20px;
+}
+.page_content > h3 {
+	padding-top: 20px;
+}
+
+
+
+.entry-header {
+	max-width: 1080px;
+	height: 75px;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+.entry-title {
+	color: #000000;
+	width: 450px;
+	padding-top: 10px;
+}
+.entry-title-long {
+    font-size: 22px !important;
+	margin-top:13px;
+}
+
+.post-245 .entry-content, .entry-content2 {
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/parchment.jpg");
+}
+.entry-content2{margin-top:10px;}
+
+.entry-content  a:hover{
+border-bottom: 1px dotted #000;	
+}
+hr {
+	width: 800px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background-color: #B20000;
+	height: 5px;
+	
+}
+
+hr.plain{width: 100%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background-color: #ccc;
+	height: 2px;
+	margin-bottom: 30px !important;}
+.blue {
+	background-color: #1a2a58;
+	margin-bottom: 0 !important;
+	/*margin-top: 20px !important;*/
+}
+.indented{margin-left:10px;}
+
+ 
+
+/*************************
+           Font Styles
+************************* */
+
+p {
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px !important;
+	line-height: 22px !important;
+	margin-bottom: 22px !important; /*15*/
+	margin-left: 10px !important;
+}
+
+
+p.leadline {
+	font-size: .9em !important;
+	font-weight: bold;
+	margin: 12px 0 0 2px !important;
+}
+
+
+
+
+ 
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+h1 {
+	color: #202020 !important;
+	font-size: 24px !important;
+	letter-spacing: 1px !important;
+	font-family: "tires", sans-serif;
+}
+
+h2.entry-title{
+	font-size:18px !important;
+	font-weight:bold !important;
+}
+h2.entry-title-alt{
+	font-size:19px !important;
+	font-weight:bold !important;
+	text-transform: uppercase;
+    width:90%; 
+}
+
+h4 {
+	color: #555555;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 15px !important;
+	margin-bottom: 2px !important;
+	padding: 10px !important;
+	font-weight: bold;
+}
+.footercell h4 {
+	color: #FFFFFF !important;
+	width: 175px;
+	font-weight: normal !important;
+}
+.footercell h4:after {
+	width: 50px !important;
+	background: none repeat scroll 0 0 #0099CC !important;
+}
+h4:after {
+	background: none repeat scroll 0 0 #CF6600;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px; 
+	margin-top: 2px;
+	width: 150px;
+}
+h5 {
+	color: #202020;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 13px !important;
+	padding: 5px 5px 5px 15px !important;
+}
+h5:after {
+	background: none repeat scroll 0 0 #202020;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	margin-top: 2px;
+	width: 75px;
+}
+
+
+h3, h4, h2.lead {
+	color:#1a2a58; 
+	font-size: 16px !important;
+	margin: 25px 0 8px 0;   
+	font-family: "tires", sans-serif;
+	padding-bottom: 2px !important;
+	-webkit-text-stroke: 1px rgba(0,0,0,0.1);
+	font-weight: normal;
+}
+h3:after, h4:after {
+	background: none repeat scroll 0 0 #1a2a58;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 1px; 
+	margin-top: 3px;
+	width: 50%;
+}
+
+h4 {
+	color: #202020;
+}
+h4:after {
+	background: none repeat scroll 0 0 #202020; width: 395px;}
+	
+h6{
+	font-family: "tires", sans-serif;
+	font-size:14px; 
+	text-transform:uppercase;
+	}
+	
+.ordered-header{
+	color:#1a2a58; 
+	font-size: 16px !important;
+	margin: 25px 0 8px 0;   
+	font-family: "tires", sans-serif;
+	padding-bottom: 2px !important;
+	-webkit-text-stroke: 1px rgba(0,0,0,0.1);
+	font-weight: normal;
+
+}
+h2.ordered-header,  h2.lead {
+	border-bottom: 1px solid #202020; width: 395px;}
+
+ 
+.bold{
+	font-weight:bold;
+}
+.left-margin{
+margin-left:10px	
+	
+}
+
+.strong-cap{ /*use  with p element*/
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    margin-left: -1px !important;
+    margin-bottom: -1px !important;
+    margin-top: 5px;
+	padding-left: 4px;
+	}
+	
+
+.moreInfo{     
+	font-size: 1.15em !important;
+    color: #202020 !important;
+    text-transform: uppercase !important;
+    margin-top: 15px;
+	}
+ 
+
+/*************************
+           Header
+************************* */
+
+.header {
+	margin: 0 auto;
+	width: 1165px;
+}
+.logo {
+	width: 300px;
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/deptofelectionslogosmallest.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 61px;
+	margin-top: 13px;
+}
+.header_container {
+	max-width: 2000px;
+	width: 100%;
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,1);
+	margin: auto;
+	height: 100px;
+	padding-top: 30px;
+	z-index: 9998;
+}
+.stickymenu .sticky_container {
+	width: 1165px;
+	margin: 0 auto;
+}
+.stickymenu {
+	position: fixed;
+	animation: thedrop 1s 1;
+	-moz-animation: thedrop 1s 1;
+	-webkit-animation: thedrop 1s 1;
+	padding-top: 0px;
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 1);
+	height: 80px;
+	box-shadow: 0 0 5px #111111; /*7-25-16 0 0 3px #AAAAAA;*/
+	width: 100%;
+	z-index: 9999;
+}
+/*************************
+           Index
+************************* */
+
+.indexpage_container {
+	width: 100%;
+	max-width: 2000px;
+	background: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 1px 1px 3px #222 inset;
+}
+.frontpagebuttons {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.frontpagebuttons_container {
+	width: 100%;
+	max-width: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0;
+	background-color: #FFFFFF;
+}
+.leftblock {
+	width: 39%;
+	float: left;
+}
+.rightblock {
+	width: 59%;
+	float: right;
+}
+.indexwelcome {
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, .7);
+	width: 100%;
+}
+.indexwelcomeinfo {
+	width: 1080px;
+	margin: auto;
+	padding: 40px 0;
+}
+.infobutton {
+	width: 275px;
+	height: 170px;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 8px 7px 13px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+
+.middle {
+	margin: 0 100px;
+}
+
+
+.infobutton_image {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	font-family: "fontellotwo";
+	font-size: 40px;
+	color: #CCCCCC;
+	padding-right: 4px;
+}
+.infobutton:hover > .button_background > a.infobutton_image {
+	color: #008a45 !important;
+	transition: all .3s ease-in-out 0s;
+}
+.bottomrow:hover > .button_background > a.infobutton_image {
+	color: #0099cc !important;
+	transition: all .3s ease-in-out 0s;
+}
+
+
+.registration {
+	background-position: -19px -57px;
+	transition: all .3s ease-in-out 0s;
+}
+.ballot:before {
+	content: '\E805';
+}
+.location:before {
+	content: '\E800';
+}
+.results:before {
+	content: '\E801';
+}
+.id:before {
+	content: '\E802';
+}
+.local:before {
+	content: '\E803';
+}
+.registration:before {
+	content: '\E804';
+}
+.location {
+	background-position: -20px -760px;
+	transition: all .3s ease-in-out 0s;
+}
+.faq {
+	background-position: -18px -552px;
+	transition: all .3s ease-in-out 0s;
+}
+.absentee {
+	background-position: -18px -734px;
+	transition: all .3s ease-in-out 0s;
+}
+.results {
+	background-position: -19px -990px;
+	transition: all .3s ease-in-out 0s;
+}
+.id {
+	background-position: -19px -1228px;
+	transition: all .3s ease-in-out 0s;
+}
+.local {
+	background-position: -20px -1458px;
+	transition: all .3s ease-in-out 0s;
+}
+.indexinfo_left {
+	float: left;
+	max-height: 400px;
+	width: 500px;
+	padding: 20px 20px;
+}
+.indexinfo_right {
+	float: right;
+	max-height: 400px;
+	width: 500px;
+	padding: 20px 20px;
+}
+.indexinfo {
+	max-height: 400px;
+	width: 1000px;
+	padding: 20px 40px;
+	margin: 15px auto;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	box-shadow: 0 0 4px #555555;
+	display: none;
+}
+.bootsandballots {
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/bootsandballots.png");
+	background-repeat: no-repeat;
+	background-size: 429px 214px;
+	width: 429px;
+	height: 214px;
+	float: right;
+}
+.feature, .featureELECT {
+	max-width: 1590px;
+	margin: auto;
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/indexfeature.png");
+	background-position: center top;
+	height: 150px;/*190 / 210px*/
+	position: relative;
+	background-repeat: no-repeat;
+}
+.featureELECT {
+	background-image: none;
+	height: 25px;
+}
+.featurecell_container {
+	width: 100%;
+}
+.featurecell_center {
+	width: 1000px;
+	margin: 0 auto;
+}
+.featurecell {
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	top: 0;
+	transition: all .3s ease-in-out 0s;
+}
+.featurecellzero {
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	top: 0;
+	transition: all .3s ease-in-out 0s;
+}
+.featurecellnull {
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	top: 0;
+}
+.featurecell > a {
+	display: inline-block;
+	vertical-align: bottom;
+	box-shadow: 1px 1px 2px #444444;
+	color: #FFFFFF;
+	padding: 0 20px 8px 20px;
+	border-radius: 4px;
+	width: 270px;
+	height: 60px;/*50px*/
+	margin-top: 10px;
+}
+.featurecellzero > a {
+	display: inline-block;
+	vertical-align: bottom;
+	box-shadow: 1px 1px 2px #444444;
+	color: #FFFFFF;
+	padding: 0 20px 8px 20px;
+	border-radius: 4px;
+	width: 945px;
+	height: 50px;
+	text-align: center;
+}
+.featurecellnull > a {
+	display: inline-block;
+	vertical-align: bottom;
+	box-shadow: 1px 1px 2px #444444;
+	color: #FFFFFF;
+	padding: 0 20px 8px 20px;
+	border-radius: 4px;
+	width: 945px;
+	height: 50px;
+	text-align: center;
+}
+.footerfeature_cell h2, .footerfeature_cell h3,  .footerfeature_cell h4 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 19px !important; /*8-15-15*/
+	padding-bottom: 10px !important;
+	padding-left: 0px !important;
+}
+.footerfeature_cell h2:after {
+	display: none;
+}
+
+.footerfeature_cell h3:after {
+	display: none;
+}
+.footerfeature_cell h4:after {
+	display: none;
+}
+
+.footerfeature_cell > .footerfeature_info > p {
+    color: #FFFFFF;
+    font-weight: bold !important;
+    font-size: 19px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 2px !important;
+	margin-left: 0px !important;
+    margin-top:5px !important;
+}
+
+.footercell p {
+	color: #FFFFFF !important;
+	width: 175px;
+	font-weight: bold !important;
+	margin-bottom:0px !important;
+	margin-top:5px;
+	margin-left:0px !important;
+	padding-bottom: 4px !important;
+}
+.footercell p:after {
+	width: 50px !important;
+	background: none repeat scroll 0 0 #0099CC !important;
+	height:1px !important;
+	-webkit-text-stroke: 1px rgba(0,0,0,0.1)!important;
+	bottom: 0;
+    content: "";
+    display: block;
+}
+
+.featurecell strong {
+	
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #555555;
+	font-size: 17px;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+.featurecell a, .featurecell a:visited, .featurecellzero a, .featurecellzero a:visited, .featurecellnull a, .featurecellnull a:visited {
+	color: #FFFFFF !important;
+}
+a.xyz {
+	color: #FFFFFF !important;
+	margin-top: 5px;
+}
+.featurecell_info {
+	filter: alpha(opacity=0);
+	opacity: 0;
+	height: 60px;
+	width: 311px;
+	transition: all .3s ease-in-out 0s;
+}
+.featurecell_info p {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #222222;
+}
+.featurecellzero_info {
+	filter: alpha(opacity=0);
+	opacity: 0;
+	height: 60px;
+	width: 945px;
+	transition: all .3s ease-in-out 0s;
+}
+.featurecellzero_info p {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #222222;
+}
+
+
+
+/**/
+ 
+  
+  
+
+.post-245 .entry-title {
+	display: none !important;
+}
+.front-widgets {
+	float: right;
+	padding-top: 15px;
+}
+/*************************
+           Sidebar
+************************* */
+
+.sidebarcontainer {
+	float: right;
+}
+.sticky {
+	position: fixed;
+}
+.sidebar, .sidebar-alt {
+	width: 295px;
+	display: block;
+	float: right;
+	padding-top: 8px;
+}
+.links {
+	height: auto;
+	margin: 40px 0 0;
+	border-radius: 6px;
+	z-index: 101;
+}
+.links > .textwidget {
+	box-shadow: 0 0 2px #CCCCCC;
+}
+.textwidget {
+	width: 317px;
+}
+.links ul {
+	padding-bottom: 0 !important;
+	border: 1px solid #eeeeee;
+	background-color: #FFFFFF;
+}
+.links ul, .links li {
+	list-style: none;
+	margin-left: 0px;
+}
+.links ul li {
+	border-top: 1px solid #EEEEEE;
+	color: #202020;
+	padding-bottom: 0 !important;
+	width: 315px;
+
+	font-size: 14px !important;
+}
+.links ul li a {
+	width: 272px;
+	padding: 4px 0 5px 31px;
+	display: inline-block;
+}
+.no-js .links ul li:before {
+	display: none;
+}
+.links ul li:before {
+	content: '\E804';
+	font-family: "fontello";
+	position: relative;
+	font-size: 14px;
+	color: #CCCCCC;
+	left: 32px;
+	top: 0;
+	margin-left: -21px;
+	padding-right: 20px;
+}
+.links ul li:hover:before {
+	text-shadow: 0 0 1px #CCCCCC;
+	color: #FFFFFF;
+	transition: all .15s ease-in-out 0s;
+}
+.links ul li:hover {
+	background: #eeeeee; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #eeeeee 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eeeeee 0%, #e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eeeeee 0%, #e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eeeeee 0%, #e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #eeeeee 0%, #e5e5e5 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#e5e5e5', GradientType=0 );  IE6-8 */
+	transition: all .15s ease-in-out 0s;
+}
+.links ul > a:visited {
+	color:  #751975;
+}
+.linksheader {
+	border: 1px solid #B20000;
+	background-color: #B20000;  
+	 
+	width: 315px;
+}
+.topicsheader {
+	width: 315px;
+	background-color: #0099cc; 
+	border: 1px solid #0099cc;
+}
+.linksheader h2, .topicsheader h2 {
+	color: #FFFFFF;
+	font-family: "tires", sans-serif;
+	margin-left: 4px;
+	padding: 7px;
+	font-size: 20px !important;
+}
+.linkscontainer {
+	height: auto;
+	width: 257px;
+}
+/*************************
+           Footer
+************************* */
+
+.footer {
+	color: #FFFFFF;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	
+	font-size: 13px;
+}
+.subfooter {
+	color: #FFFFFF;
+	text-align: center;
+	border-top: 1px solid #353535;
+	margin-top: 15px;
+	display: inline-block;
+	width: 100%;
+}
+.subfooter h5 {
+	color: #FFFFFF;
+}
+.subfooter h5:after {
+	display: none;
+}
+.subfooter a:link{
+	 color: #A9A9FF !important;
+}
+	  
+.subfooter a:visited { color: #A9A9FF   !important; 
+}
+.subfooter a:hover { color: #b20000  !important; text-decoration:underline; 
+}	
+
+.footercontainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 2000px;
+	background-color: #202020;
+	/*height: 480px;*/ /*8-1-16*/
+}
+.footercell {
+	width: 230px;
+	padding: 0 17px;
+}
+.socialmedia {
+	list-style-type: none;
+}
+.socialmedia li {
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/socialsprite.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 10px 5px 5px 10px;
+	width: 45px;
+	height: 45px;
+}
+.socialmedia li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.facebook {
+	background-position: 1px 3px;
+	transition: all .3s ease-in-out;
+}
+.facebook:hover {
+	background-position: 1px -42px;
+}
+.twitter {
+	background-position: -44px 3px;
+	transition: all .3s ease-in-out;
+}
+.twitter:hover {
+	background-position: -44px -42px;
+}
+.youtube {
+	background-position: -87px 3px;
+	transition: all .3s ease-in-out;
+}
+.youtube:hover {
+	background-position: -87px -42px;
+}
+.linkedin {
+    background-position: -133px 3px;
+    transition: all .3s ease-in-out;
+}
+.linkedin:hover {
+    background-position: -133px -42px;
+}
+.email {
+	background-position: -176px 3px;
+	transition: all .3s ease-in-out;
+}
+.email:hover {
+	background-position: -176px -42px;
+}
+.website {
+	background-position: -222px 0;
+	transition: all .3s ease-in-out;
+}
+.website:hover {
+	background-position: -222px -43px;
+}
+.omegalogo {
+	padding-top: 10px;
+}
+.footercell li a {
+	color: #FFFFFF;
+}
+.footercell li a:hover {
+	color: #0099CC;
+	border-bottom: 1px dotted #0099CC;
+}
+.footercell a {
+	color: #FFFFFF;
+}
+.footercell a:hover {
+	color: #b20000;
+	border-bottom: 1px dotted #b20000;
+}
+.footer a:visited {
+	color: #FFFFFF;
+}
+.footerfeature_container {
+	top: 0;
+	padding-bottom: 20px;
+}
+.footerfeature_cell {
+	display: table-cell;
+}
+.footerfeature_info {
+	padding: 10px 30px;
+	width: 300px;
+	min-height: 160px;
+
+}
+.footerfeature_info p {
+	line-height: 18px !important;
+}
+.footerfeature_info p strong {
+	font-size: 15px !important;
+}
+.footerfeature_info a {
+	color: #FFFFFF !important;
+	font-size:14px; 
+}
+.footerfeature_info a:hover {
+	color: #ff0000 !important;
+	border-bottom: 1px dotted #ff0000;
+	font-weight:bold;
+
+}
+.footerone {
+	background-color: transparent; /*#42b3eb*/
+}
+.footertwo {
+	background-color: transparent; /*#0384ce;*/
+}
+.footerthree {
+	background-color: transparent;
+}
+/*************************
+           Tables
+************************* */
+
+.regdeadlinestable {
+	/*width: 300px !important;*/
+	/*margin-right: 0px auto;
+	margin-left: 0px auto;*/
+	margin-bottom:14px;
+	font-size: 14px;
+}
+.regdeadlinestable td {
+	min-width: 175px;
+	/*text-align: center;*/
+}
+.regdeadlinestable tr {
+	height: 25px;
+}
+.regdeadlinestable tdbody {
+	border: 1px solid #CCCCCC;
+}
+table {
+	width: 700px;
+	vertical-align: top;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px;
+}
+.resultsdata{
+	width: 680px;
+	margin-left:20px;
+	
+	}
+.resultsdata td {
+	border: 0px solid #CCCCCC;
+	width: 140px
+	}
+table td {
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	font-size: 14px;
+}
+.schedules_table td {
+	width: 340px;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	font-size: 14px;
+}
+.statistics_table td {
+	width: 140px;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}
+.staff_table td {
+	width: 250px;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}
+.votingsystemstable td {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	font-size: 14px;
+}
+.votingsystemstable h2, .staff_table h2 {
+	text-align:center; font-size:16px !important; color:#202020;
+}
+.regdeadlinestable tr:nth-child(2n),
+.staff_table tr:nth-child(2n),
+.votingsystemstable tr:nth-child(2n),
+.schedules_table tr:nth-child(2n),
+.statistics_table tr:nth-child(2n){
+	background-color: #eeeeee;
+}
+
+.stats_table table tr:nth-child(even) {background-color:#e1f3f8; }
+.stats_table table tr:nth-child(odd) {background: #FFF}
+
+#post-1159 table td {
+	border: none;
+}
+
+
+.gsc-tabData.gsc-tabdActive {
+	display: inline-block !important;
+}
+.gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {
+	font-family: "open_sansregular", sans-serif;
+}
+.gs-title a {
+	font-family: "open_sansregular", sans-serif;
+	text-decoration: none !important;
+	border: none !important;
+}
+.gsc-webResult:after {
+	background: none repeat scroll 0 0 #CCCCCC;
+	bottom: 0;
+	content: "" !important;
+	display: block;
+	height: 1px !important;
+	width: 95%;
+	visibility: visible !important;
+	margin: 2px auto 0 auto;
+}
+/*************************
+    Styles for One page
+************************* */
+
+.youtubeleft {
+	float: left;
+	width: 300px;
+	height: auto;
+	margin: 5px;
+}
+.youtuberight {
+	float: right;
+	width: 300px;
+	height: auto;
+	margin: 5px;
+}
+.youtubesquarecontainer {
+	width: 630px;
+	margin: auto;
+	height: 400px;
+}
+.faqoptions {
+	height: 140px;
+}
+.faqoptions ul {
+	width: 98%;
+	margin: auto;
+}
+.faqoptions li {
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px;
+	background-color: #008A45;
+	float: left;
+	font-weight: normal;
+	margin: 5px;
+	padding: 10px;
+	width: 270px;
+	list-style: none;
+	text-align: center;
+}
+.faqoptions li a {
+	color: #FFFFFF !important;
+}
+.faqoptions li a:hover {
+	color: #000000 !important;
+}
+.faqoptions li:hover {
+	background-color: #0099CC;
+	transition: all 0.3s ease-in-out 0s;
+}
+.stats ul > a {
+	border-bottom: 1px dotted #555555;
+	text-align: center;
+	min-width: 60px;
+	min-height: 30px;
+	display: inline-block;
+	margin-left: 0;
+}
+.stats li {
+	min-width: 425px;
+	min-height: 30px;
+	display: inline-block;
+	border-bottom: 1px dotted #555555;
+}
+.stats ul {
+	padding-bottom: 20px;
+}
+.map {
+	float: left;
+	margin-top: 20px;
+}
+.map_info {
+	float: right;
+	width: 250px;
+	margin-top: 20px;
+}
+.boardmemberpic {
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+}
+.boardmemberpic-2015 {
+	display: block;
+	background-position: left;
+	background-repeat: no-repeat; 
+	background-size: contain;
+	float:left;
+	width:150px;
+	padding-top: 20px;
+}
+.boardmemberinfo {
+	display: block;
+	width: 100%;
+	padding-bottom: 20px;
+
+}
+
+.left-img{
+	float:left;
+	border:2px solid #666;
+	margin: 5px 10px 5px 5px;
+	}
+.socialmedia-box {
+	display: block;
+	padding: 20px;
+	height: 50px;
+}
+.facebook-logo {
+	float: left;
+	padding-right: 15px;
+}
+.twitter-logo {
+	float: left;
+	padding-left: 15px
+}
+.left-box {
+	float: left;
+	padding-right: 25px;
+}
+.right-box {
+	float: right;
+	padding-left: 25px;
+}
+.clearbox {
+	margin: -10px 0 0 30px;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 14px !important;
+	min-height:25px;
+}
+
+
+
+/*************************
+           Menu
+************************* */
+
+.menu-header {
+	min-height: 40px;
+	float: right;
+	width: 840px; 
+	
+}
+ul.menu {
+	height: 40px;
+	max-width: 100%;
+	position: relative;
+	padding-top: 20px;
+}
+ul.menu > li {
+	float: left;
+	list-style-type: none;
+	text-align: center;
+}
+.no-js ul.menu > li.menu-item > ul {
+	display: none;
+}
+ul.menu > li.menu-item > ul {
+	position: absolute;
+	z-index: 2;
+}
+ul.menu > li.menu-item > a:hover {
+	background-color: #FFFFFF;
+}
+ul.menu > li a {
+	color: #555; /*#444 RLV 8-25-15*/
+	display: block;
+	float: left;
+	font-family: "open_sansregular", sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 16px 10px;/*12px 7px*/ 
+}
+.item-0, .item-1, .item-2, .item-4, .item-6, .item-7, .item-8 {
+	margin: 4px auto;
+	float: right;
+	left: -900em;
+	text-align: left;
+	padding: 10px;
+	opacity: 0;
+	background: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px #AAAAAA;
+}
+.item-8 {
+	/*width: 380px;*/width: 300px;
+}
+.item-7 {
+	/*width: 380px;*/width: 255px;
+}
+.item-6 {
+	/*width: 380px;*/width: 255px;
+}
+.item-4 {
+	width: 255px;
+}
+.item-2 {
+	/*width: 380px;*/width: 255px;
+}
+.item-1 {
+	width: 255px;
+}
+.item-0 {
+	width: 255px;
+}
+ul.menu li:hover .item-0, ul.menu li:hover .item-1, ul.menu li:hover .item-2, ul.menu li:hover .item-4, ul.menu li:hover .item-6, ul.menu li:hover .item-7, ul.menu li:hover .item-8 {
+	transition-duration: .7s;
+	transition-property: opacity;
+	opacity: .99;
+}
+
+ul.menu li:hover .item-8 {
+	left:500px; /*290px;*/ /*97*6 */
+	top: 55px;
+}
+ul.menu li:hover .item-7 {
+	left:485px; /*290px;*/  /*97*5 */
+	top: 55px;
+}
+ul.menu li:hover .item-6 {
+	left:400px; /*290px;*/ /*100*4 */
+	top: 55px;
+}
+ul.menu li:hover .item-4 {
+	left: 300px; 	/*310*/		/*100*3 */
+	top: 55px;
+}
+ul.menu li:hover .item-2 {
+	left: 200px;/*117*/ /*100*2 */
+	top: 55px;
+}
+ul.menu li:hover .item-1 {
+	left: 66px;
+	top: 55px;
+}
+ul.menu li:hover .item-0 {
+	left: -31px;
+	top: 55px;
+}
+ul.menu > li > ul > li a {
+	font-family: "open_sansregular", sans-serif;
+	font-size: 12px;
+	color: #202020;
+	text-align: center;
+	width: 108px;
+	text-transform: none;
+	height: 35px;
+	padding: 4px;
+	margin: 5px;
+	border-bottom: 3px solid #CCCCCC;
+	border-top: 3px solid #FFFFFF;
+}
+ul.menu > li > ul > li a:hover {
+	border-bottom: 3px solid #B20000 !important;
+	border-top: 3px solid #1a2a58 !important;
+	transition: all 0.4s ease-in-out 0s;
+}
+ul.menu > li > ul > li > ul {
+	display: none;
+}
+#menu-test li.current-menu-item a {
+	color: #FFFFFF;
+	background-color: #1a2a58;
+}
+#menu-test li.current-menu-item > ul > li {
+	color: #555555 !important;
+}
+ul.menu li > ul > li > a {
+	background-color: #FFFFFF !important;
+	color: #555555 !important;
+}
+#menu-test li.current-menu-ancestor a {
+	background-color: #1a2a58;
+
+	color: #FFFFFF;
+}
+#menu-test > li > a:hover {
+	background-color: #FFFFFF;
+	color: #555555;
+}
+#menu-test > li:hover {
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	color: #000000 !important;
+}
+#menu-test > li {
+	margin-left: 1px;
+	margin-top: 1px;
+	margin-right: 1px;
+}
+#menu-test li.current-menu-ancestor ul li a:hover {
+	border-bottom: 3px solid #B20000 !important;
+	border-top: 3px solid #1a2a58 !important;
+	transition: all 0.4s ease-in-out 0s;
+}
+#menu-test li.current-menu-ancestor ul li a {
+	color: #555555 !important;
+}
+.singleline {
+	line-height: 35px;
+}
+#menu-mobile {
+	display: none;
+}
+
+/* COV Banner Reserved Brand*/
+
+#commonBanner {
+	background-color: #000000;
+	font-family: Verdana, sans-serif;
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 12px;
+	max-width: 1165px;
+	margin: 0 auto;
+}
+#commonBanner .virginiaLogo {
+	border: none;
+	float: left;
+	display: block;
+	width: 151px;
+	height: 40px;
+	text-decoration: none;
+	background: url('https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/Virginia_dot_Gov_logo.png') center no-repeat;
+}
+#commonBanner .alignLeft {
+	float: left;
+	margin-left: 20px;
+	padding-top: 11px;
+}
+#commonBanner a:hover {
+	color: #CCCCCC;
+}
+#commonBanner a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#commonBanner #virginiaSearch {
+	float: right;
+	padding-top: 11px;
+	padding-right: 10px;
+}
+#commonBanner .screenReaderOnly {
+	position: absolute;
+	left: -999em;
+	width: 1em;
+	overflow: hidden;
+}
+.menubutton .screenReaderOnly{display:none;
+}
+
+/* COV Banner Reserved Brand end*/
+.printinfo {
+	display: none;
+}
+.printlogo {
+	width: 363px;
+	display: inline-block;
+	height: 69px;
+	float: left;
+	padding-top: 40px;
+}
+.printaddress {
+	float: right;
+	display: inline-block;
+}
+
+
+.menubutton {
+	display: none;
+}
+.mobilesearch {
+	display: none;
+}
+/*10-1-14*/
+.cta-box, .cta-box-mobile, .cta-box-side, .cta-box-alpha {
+	font-family: "open_sansregular", sans-serif;
+	border: 2px solid #cccccc;
+	padding: 10px;
+	display: block;
+	margin: 5px 5px 15px 5px;
+}
+.cta-box-alpha{background-color:#fff1d2;}
+.cta-box-mobile{display: none;}
+.second-tier {
+	font-size: 1em;
+	font-weight:bold
+}
+.cta-box-alpha, .cta-box {  
+  	max-width: 620px;
+    margin-left: 0px;
+	}
+.red-star:after {
+	content: "*";
+	color: #b20000;
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 2px;
+}
+.hidden-alt-text {
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+.label-hide {
+	display: none;  
+}
+/***********/
+
+
+
+
+
+
+ @media (min-width: 0px) and (max-width: 480px) {
+table {
+	width: 98% !important;
+	max-width: 98% !important;
+	margin: 0 auto !important;
+}
+.menu-header {
+	display: none;
+}
+.logo {
+	max-width: 300px;
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/sbelogosmall-new.png");  
+	background-size: contain;
+	display: block;
+	margin: 1px auto !important;
+	position: relative;
+	top: -25px;
+}
+.feature {
+	display: none;
+}
+.featurecell, .featurecellzero, .footerfeature_cell,.featurecellnull {
+	display: block;
+	height: 100px;
+	text-align: center;
+
+}
+.footerfeature_cell {
+	 
+	min-height: 210px; 
+	 
+} /*8-27-15*/
+.featurecell_info, .footerfeature_info {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 0 0 0;
+}
+hr {
+	width: 80%;
+}
+.indexinfo {
+	display: none;
+}
+.featurecell_center {
+	max-width: 100%;
+	padding-top: 20px;
+}
+.featurecell_info, .featurecellzero_info {
+	display: none;
+}
+.featurecell_info, .featurecellzero_info {
+	top: 0;
+}
+
+
+.cellnull > a {
+	margin: 0 0 !important;
+}
+
+.cellzero > a {
+	margin: -10px 0;
+}
+.cellone > a {
+	margin: -10px 0;
+}
+.celltwo > a {
+	margin: -10px 0;
+}
+.cellthree > a {
+	margin: -10px 0;
+}
+.cellfour > a {
+	margin: -10px 0;
+}
+.cellfive > a {
+	margin: -10px 0;
+}
+.cellsix > a {
+	margin: -10px 0;
+}
+.cellseven-a > a {
+	margin: -10px 0;
+}
+.celleight > a {
+	margin: -10px 0;
+}
+.cellnine > a {
+	margin: -10px 0;
+}
+.featurecellzero > a {
+	width: 270px;
+	height: 60px;
+}
+.featurecellnull > a {
+	width: 270px;
+	height: 60px;
+	
+}
+
+.subfooter {
+	 
+	text-align: left;
+	margin-top: -25px;
+    margin-left: 40px; 
+}
+
+/**/
+.omegalogo {
+	display: none !important;
+}
+.infobutton {
+	text-align: center;
+	width: 98%;
+	display: block;
+	margin: 2px auto 30px auto;
+	padding-bottom: 20px;
+	height: auto;
+	border-bottom: 1px solid #CCCCCC;
+}
+.footercontainer {
+	height: auto !important;;
+}
+.frontpagebuttons {
+	text-align: center;
+}
+.infobutton_info {
+	width: 98%;
+}
+.map_info {
+	float:none;
+	 
+}
+
+ 
+/**************************************/
+.footercell {
+		width:100%;
+		padding:0;
+		 text-align:center; 
+		display:inline-block;
+	}
+.footercell h4 
+	{  padding: 0 !important;
+	    width:100%;
+	    margin:10px 0px 0px 0px;
+	     color:#fff1d2 !important;
+	     font-weight:bold !important;     }
+.thirdcell {
+		width:95%;
+	}
+.footercell h4:after {
+		margin-left:0;
+		margin-right:0;
+		width: 50px !important;
+        background: none repeat scroll 0 0 #222 !important;		
+	}
+.footerfeature_cell > .footerfeature_info > p {
+    color: #FFFFFF;
+    font-weight: bold !important;
+    font-size: 19px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 2px !important;
+	margin-left: 0px !important;
+    margin-top:5px !important;
+}
+
+.footercell p {
+	color: #FFFFFF !important;
+	width: 175px;
+	font-weight: bold !important;
+	margin-bottom:0px !important;
+	margin-top:5px;
+	margin-left:0px !important;
+	padding-bottom: 4px !important;
+}
+
+.thirdcell h4 {
+	margin-left:10px;
+}
+.sidebar {
+	display: none;
+}
+.sidebar-alt{
+	float:none;}
+.searchbar {
+	display: none;
+}
+.content_container {
+	width: 93%;
+	padding: 15px;
+	border-radius: 0 !important;
+	box-shadow: 0 0 0 #FFFFFF;
+}
+.page_content {
+	width: 98%;
+}
+.entry-title, .entry-title-long {
+	width: 98%;
+	font-size: 20px !important; /*8-27-15*/
+}
+.youtubeleft, .youtube, .youtuberight {
+	display: none;
+}
+.menubutton:hover > .menu-mobile-container {
+	display: inline-block !important;
+}
+#menu-mobile {
+	z-index: 9999;
+	background-color: #FFFFFF;
+	display: inline-block;
+	height: auto;
+	position: relative;
+	top: 1px;
+	box-shadow: 0 1px 2px #555555;
+}
+.menu-mobile-container {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu-mobile li {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#menu-mobile li a { /* traget 48px mobile button sizes*/
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 15px 4px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.menubutton:before {
+	font-family: "fontellotwo";
+	content: '\E804';
+	color: #FFFFFF;
+	font-size: 21px;
+}
+.menubutton {
+	background: #4566ac; /* Old browsers */
+	background: -moz-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4566ac), color-stop(99%, #3156a3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #4566ac 0%, #3156a3 99%); /* W3C */
+ /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4566ac', endColorstr='#3156a3', GradientType=0 );  IE6-9 */
+	border: 1px solid #4566ac;
+	border-radius: 3px;
+	display: block;
+	width: 300px;
+	margin: 1px auto;
+	text-align: center;
+	max-height: 22px;
+	padding: 3px 0;
+}
+.menubutton > a {
+	color: #FFFFFF;
+	font-family: "tires", sans-serif;
+	font-size: 16px;
+	margin-left:5px;
+	vertical-align: text-top;
+	text-shadow: 1px 1px 5px #999999;
+}
+.menubutton > a:visited {
+	color: #FFFFFF;
+}
+#commonBanner > .alignLeft {
+	display: none;
+}
+#commonBanner > #virginiaSearch {
+	display: none;
+}
+#commonBanner .virginiaLogo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+}
+.feature {
+	min-height: 365px;
+}
+.whc {
+	display: none;
+}
+.mobilesearch {
+	display: inline-block !important;
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.navbar-search {
+	max-width: 76%;
+	min-width: 76%;
+	border: 2px solid #CCCCCC;
+}
+.header_container {
+	height: 145px;
+}
+ul.menu {
+	padding-top: 0;
+}
+.stickymenu, .sticky_container, .header_container, .header {
+	width: 100%;
+	max-width: 340px; 
+	 /*3-18-16*/
+	/*min-width: 340px;*/
+	 
+}
+/*10-23-14*/
+.stickymenu {
+	/*max-width: 479px; */
+	min-height: 165px;
+}
+.stickymenu .logo {
+	/*max-width: 380px;*/
+	max-width:250px;
+	min-height: 85px;
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/sbelogosmall-new.png"); 
+	background-size: contain;
+	display: block;
+	/*margin-right: 40px;
+	margin-left: -25px;*/
+	margin: 1px auto !important;
+	position: relative;
+	top: 5px;/*10-23-14*/
+	margin-bottom: 5px;
+}
+.stickymenu .navbar-search {
+	max-width: 66%;
+	min-width: 66%;
+	margin-left: -40px;	/*10-23-14*/
+	margin-top: 5px;
+}
+.stickymenu .menubutton {
+	max-width: 66%;
+	min-width: 66%;
+	margin-left: 55px;
+	margin-top: 2px;
+}
+.overflow {
+	overflow-x: hidden;
+}
+.regdeadlinestable {
+	width: 98% !important;
+	max-width: 98% !important;
+}
+.regdeadlinestable td {
+	width: 48% !important;
+	max-width: 48% !important;
+	padding: 0 !important;
+}
+.stats ul {
+	margin-right: 0;
+}
+.stats li {
+	min-width: 195px;
+}
+.stats ul > a {
+	display: block;
+	border: none;
+}
+.breadcrumbs {
+	display: block;
+}
+.cta-box-side{display: none;}
+.cta-box-mobile{display: block;}
+
+.entry-header {
+	/*max-width: 1080px;
+	height: 75px;*/
+	border-bottom: 0px solid #CCC;
+	/*margin-bottom: 10px;*/ /*10-29-15*/
+}
+.post-245 .entry-content, .entry-content2, .content  {
+	background-image: none;
+	background-color:#999;
+}
+.footercell p {
+    padding: 0 !important;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    color: #fff1d2 !important;
+    font-weight: bold !important;
+}
+.footercell p:after {
+    width: 50px !important;
+    background: none repeat scroll 0 0 #0099CC !important;
+    height: 0px !important;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.1)!important;
+    bottom: 0;
+    content: "";
+    display: block;
+}
+
+}
+ @media (min-width: 481px) and (max-width: 1089px) {
+table {
+	width: 98%;
+	margin: 0 auto !important;
+}
+.menu-header {
+	display: none;
+}
+.logo {
+	max-width: 380px;
+	min-height: 85px;
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/sbelogosmall-new.png");   
+	background-size: contain;
+	display: block;
+	margin: 1px auto !important;
+	position: relative;
+	top: -25px;
+	height: 72px;
+}
+.featurecell, .footerfeature_cell {
+	display: block;
+}
+.featurecell_info, .footerfeature_info {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	 
+ 
+}
+.feature {
+	min-height: 210px;
+}
+.featurecell_container {
+	bottom: 10px;
+}
+.featurecell_info, .featurecellzero_info {
+	display: none;
+}
+.featurecell:hover, .featurecellzero:hover  {
+	top: 0;
+}
+hr {
+	width: 70%;
+}
+.indexinfo {
+	display: none;
+}
+.featurecell_center {
+	max-width: 100%;
+}
+/*9-30-14*/
+.cellnull > a {
+	margin: 0px 0 !important;
+}
+.cellzero > a {
+	margin: -10px 0;
+}
+.cellone > a {
+	margin: -5px 0;
+}
+.celltwo > a {
+	margin: -10px 0;
+}
+.cellthree > a {
+	margin: -10px 0;
+}
+.cellfour > a {
+	margin: -10px 0;
+}
+.cellfive > a {
+	margin: -10px 0;
+}
+.cellsix > a {
+	margin: -10px 0;
+}
+.cellseven-a > a {
+	margin: -10px 0;
+}
+.celleight > a {
+	margin: -10px 0;
+}
+.cellnine > a {
+	margin: -10px 0;
+}
+.featurecellzero > a {
+	width: 270px;
+	height: 60px;
+	margin: 0px auto;
+}
+.featurecellzero span {
+	overflow: hidden;
+}
+
+.featurecellnull > a {
+	width: 270px;
+	height: 60px;
+	margin: 0px auto;
+}
+.featurecellnull span {
+	overflow: hidden;
+}
+
+.subfooter {
+	text-align: left;
+	margin-top: -25px;
+    margin-left: 40px;	 
+}
+/**/
+.omegalogo {
+	display: none !important;
+}
+.infobutton {
+	text-align: center;
+	width: 48%;
+	display: inline-block;
+	margin: 2px auto;
+	padding: 20px 0;
+	height: auto;
+	border-bottom: 1px solid #CCCCCC;
+}
+.footercontainer {
+	height: auto !important;;
+}
+.frontpagebuttons {
+	text-align: center;
+}
+.infobutton_info {
+	width: 98%;
+}
+.whc {
+	display: none;
+}
+.featurecell, .featurecellzero, .footerfeature_cell,  .featurecellnull{
+	display: block;
+	height: 100px;
+	/*text-align: center;*/
+
+}
+ .footerfeature_cell {
+	 
+	height: 190px;
+	 
+}  
+
+.footercell {
+	width: 49%;
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+}
+.thirdcell {
+	width: 98%;
+	padding: 0 15px;
+}
+.footercell h4:after {
+	margin-left: auto;
+	margin-right: auto;
+}
+.thirdcell h4 {
+	width: 98%;
+}
+.sidebar {
+	display: none;
+}
+.searchbar {
+	display: none;
+}
+.content_container {
+	width: 93%;
+	padding: 15px;
+	border-radius: 0 !important;
+	box-shadow: 0 0 0 #FFFFFF;
+}
+.page_content {
+	width: 98%;
+}
+.post-245 .entry-content, .entry-content2, .content  {
+	background-image: none;
+	background-color:#999;
+}
+.entry-title {
+	width: 98%;
+}
+.youtubeleft, .youtube, .youtuberight {
+	display: none;
+}
+.menubutton:hover > .menu-mobile-container {
+	display: inline-block !important;
+}
+#menu-mobile {
+	z-index: 9999;
+	background-color: #FFFFFF;
+	display: inline-block;
+	height: auto;
+	position: relative;
+	top: 1px;
+	box-shadow: 1px 1px 5px #999999;
+}
+.menu-mobile-container {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu-mobile li {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#menu-mobile li a {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 16px 4px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.menubutton:before {
+	font-family: "fontellotwo";
+	content: '\E804';
+	color: #FFFFFF;
+	font-size: 21px;
+	text-shadow: 1px 1px 1px #555555;
+}
+.menubutton {
+	background: #4566ac; /* Old browsers */
+	background: -moz-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4566ac), color-stop(99%, #3156a3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4566ac 0%, #3156a3 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #4566ac 0%, #3156a3 99%); /* W3C */
+
+	border: 1px solid #4566ac;
+	border-radius: 3px;
+	display: block;
+	width: 481px;
+	margin: 1px auto;
+	text-align: center;
+	max-height: 22px;
+	padding: 3px 0;
+}
+.menubutton > a {
+	color: #FFFFFF;
+	font-family: "tires", sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	vertical-align: text-top;
+	text-shadow: 1px 1px 1px #555555;
+	margin-left: 5px;
+}
+.menubutton > a:visited {
+	color: #FFFFFF;
+}
+.mobilesearch {
+	top: -25px;
+	display: inline-block !important;
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.navbar-search {
+	max-width: 76%;
+	min-width: 76%;
+	border: 2px solid #CCCCCC;
+}
+.header_container {
+	height: 180px;
+}
+
+ul.menu {
+	padding-top: 0;
+}
+.footercell h4 {
+	width: 95%;
+	text-align: center;
+}
+.stickymenu, .sticky_container, .header_container, .header {
+	width: 100%;
+	min-width: 481px;
+	max-width: 1080px;
+}
+
+.stickymenu {
+	
+	min-height: 190px;
+}
+.stickymenu .sticky_container .mobilesearch {
+	
+	margin: 1px auto !important;
+	display: block;
+}
+.stickymenu .sticky_container {
+	width: 100%;
+	min-width: 481px;
+	max-width: 1080px;
+}
+.sticky_container .logo {
+	max-width: 380px;
+	min-height: 85px;
+	background-image: url("https://www.elections.virginia.gov/wp-content/themes/VASBERedesign/Assets/Images/sbelogosmall-new.png"); 
+	display: block;
+	top: 1px;
+	margin: 1% auto !important;
+	position: relative;
+	margin-bottom: 5px;
+}
+.overflow {
+	overflow-x: hidden;
+}
+.map_info {
+	float:none;
+	 
+}
+.footertwo{ padding-top:5px}
+.footerone{padding-bottom:10px}
+.cta-box-mobile{display:block}
+.cta-box-side{display:none;}
+
+.footercell p {
+    width: 95% !important;
+    text-align: center;
+}
+.footercell p:after {
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+ 
+
+
+</style>
+
+
+
+
+
+
+
+
+<!--[if lt IE 9]>
+<link rel="stylesheet"  href='/wp-content/themes/VASBERedesign/css/ie.css?ver=20121010' type="text/css" media="all">
+<![endif]-->
+
+
+
+
+<style>/*reset*/a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp{border:0;margin:0;padding:0;font-size:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}b,strong{font-weight:700}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}ol,ul{list-style:none}li{display:list-item}table{border-collapse:collapse;border-spacing:0}caption,td,th{font-weight:400;vertical-align:top;text-align:left}q{quotes:none}q:after,q:before{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}svg{overflow:hidden}</style>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // This is more like it!
+  });
+</script>
+
+
+<script >
+// JavaScript Document Links Menu
+
+/* function sticky_relocate() {
+      var window_top = $(window).scrollTop();
+      var div_top = $('#sticky-anchor').offset().top;
+      if (window_top > div_top)
+        $('#sticky-element').addClass('sticky')
+      else
+        $('#sticky-element').removeClass('sticky');
+      }
+     $(function() {
+      $(window).scroll(sticky_relocate);
+      sticky_relocate();
+      });
+	  
+	  */
+	function StickyMenu () {		
+		var loadTop; 
+		var loadLeft;
+		var $links;
+		this.Init=function() {
+			$links=$("#SideLinks");	
+			if ($links.length>0){
+				$(window).scroll(function(){
+					var scrollfromtop=($(document).scrollTop());
+					var top=getLoadTop();
+					var left=(getLoadLeft()) +"px"
+					
+					if(getLoadTop() < scrollfromtop + 130){
+						top=(90) +"px"
+						$links.css({"position":"fixed","top":top,"left":left});						
+					}else{
+						$links.css({"position":"static","top":"","left":""});						
+					}
+										
+				});
+				//needs an IF statement to test for 0 so that offset is not set to right justification $links.offset
+				if ($links.offset().left!=0){
+					$(window).resize(function(){
+						loadLeft=$links.offset().left;
+					});
+				}
+			}
+		};
+		
+		var getLoadTop = function(){
+			if(!loadTop){
+				var offset=$links.offset();	
+				loadTop=offset.top;
+			}
+			return loadTop;
+		};
+		var getLoadLeft = function(){
+			if(!loadLeft){
+				var offset=$links.offset();	
+				loadLeft=offset.left;
+			}
+			return loadLeft;
+		};
+		
+		
+		return this;
+	}  
+	  $(function() {
+    		StickyMenu().Init();
+      });
+</script>
+<script >
+/*menu bar2*/
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+
+$(function() {
+if(!isMobile){
+	var nav_container = $(".header_container");
+	var nav = $(".header");
+	
+	var top_spacing = 0;
+	var bar_offset = 20;
+
+	nav_container.waypoint({
+		handler: function(event, direction) {
+			
+			if (direction == 'down') {
+			
+						
+				nav.stop().addClass("stickymenu").css("top",-nav.outerHeight()).animate({"top":top_spacing});
+				
+			} else {
+			
+				
+				nav.stop().removeClass("stickymenu").css("top",nav.outerHeight()+bar_offset).animate({"top":""});
+				
+			}
+			
+		},
+		offset: function() {
+			return -nav.outerHeight()-bar_offset;
+		}
+	});
+	
+	}
+
+
+});
+
+</script>
+<script type="text/javascript" >
+/*submenu*/
+$(function(){        
+     $('ul.sub-menu').addClass (function(idx) {         
+         return "item-" + idx;
+     });
+ });</script>
+<script type="text/javascript" >
+/*overlay*/
+function AjaxOverLay(){var e=0;this.Apply=function(t,n){t=$(t);var r=t.attr("id");if(!r||r==""){r="GenericOverLayParent-"+e++}if(t.is(":hidden")){return}if(typeof n=="undefined")n={};var i="";if(typeof n.name=="undefined"){i="overlay_"+r+"_overlay"}else{i=n.name}var s=0;if(typeof n.TopOffset!="undefined"){s=n.TopOffset}var o=document.getElementById(i);if(!o){o=document.createElement("div");o.id=i;o=$(o);o.attr("ParentId",r);if(typeof n.className=="undefined"){o.addClass("ajaxOverLay")}else{i=n.className}$(document.body).prepend(o);o.hide()}else{o=$(o)}o.height(t.outerHeight()-s);o.width(t.outerWidth());var u=t.offset();o.css({top:u.top+s+"px",left:u.left+"px"});o.show();t.attr("OverLayName",i);if(typeof n.timeout!="undefined"){var a=setTimeout(function(){Remove(t)},n.timeout)}if(typeof n.testFor!="undefined"){var f=window.setInterval(function(){if(n.testFor()){clearInterval(f);Remove(t)}},100)}return o};this.Remove=function(e){e=$(e);$("#"+e.attr("OverLayName")).hide()};return this}(function(e){e.fn.extend({ajaxOverLay:function(t){var n=e(this);return AjaxOverLay().Apply(n,t)}})})(jQuery);$(function(){$("#menu-test>li").hover(function(){$(".menuoverlay").ajaxOverLay({TopOffset:-175})},function(){AjaxOverLay().Remove(".menuoverlay")})})
+</script>
+<script type="text/javascript" src="/wp-content/themes/VASBERedesign/js/waypoints.min.js">
+</script>
+<!--<script type="text/javascript" src="/wp-content/themes/VASBERedesign/js/scrollTo.js">
+</script>
+<script type="text/javascript" src="/wp-content/themes/VASBERedesign/js/scrollstuff.js">
+</script>-->
+
+
+
+<script type="text/javascript" src="/wp-content/themes/VASBERedesign/js/modernizr.sbe.js">
+</script>
+<!--<link rel='stylesheet'  href='/wp-content/themes/VASBERedesign/fonts-election.css' type='text/css' media='all'>-->
+
+<!--[if IE 8]>
+<html class="ie ie8 no-js" lang="en-US">
+
+<style type="text/css">
+
+   .header_container { 
+       background-color:#FFFFFF;       
+    } 
+  .stickymenu {
+ background-color:#FFFFFF; 
+border-bottom:2px solid #CCCCCC;
+}
+
+/*10-7-14*/
+.searchbar {   
+    width: 320px;
+    float:right;   
+    position:relative;
+    height:40px;
+    top:-20px;
+}
+
+.navbar-search {
+    background-color: #F0F0F0;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    height: 30px;
+    width: 250px; 
+    float:left;   
+    font-family: "open_sansregular", sans-serif;
+    font-size: 13.25px;
+    margin: 0 5px 0 10px;
+    padding-left:10px;
+    padding-top:10px; 
+}
+/*10-7-14*/
+
+    </style>
+<![endif]-->
+
+<!--elections.virginia.gov tracking begin-->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55105130-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!--elections.virginia.gov tracking end-->
+
+</head><body id="top">
+<div class="overflow">
+  <div class="printinfo">
+    <div class="printlogo"> <img alt="Logo for Virginia Department of Elections" src="https://www.elections.virginia.gov//wp-content/themes/VASBERedesign/Assets/Images/deptofelectionslogosmallest.png"> </div>
+    <div class="printaddress">
+      <p> Washington Building First Floor<br>
+        1100 Bank Street, <br>
+        Richmond, VA 23219 <br>
+        Phone: (804) 864-8901<br>
+        Toll-free: (800) 552-9745 <br>
+        Fax: (804) 371-0194 <br>
+        Email: info@elections.virginia.gov</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="/contact-us/commissioner/index.html" data-id="vaCommonBanner" data-theme="dark" data-type="agency"></script>
+  
+  <div class="header_container">
+    <div class="header">
+      <div class="sticky_container">
+        <div class="logo first"> </div>
+        <div class="searchbar last mobilesearch">
+          <form action="https://www.elections.virginia.gov/search-results/index.html">
+          <input style="display:none" type="hidden" name="sitesearch" value="https://www.elections.virginia.gov">
+          <label for="SE" class="label-hide">Search Elections</label>
+          <input name="q" type="text" class="navbar-search" onfocus="if (this.value == 'Search Elections') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search Elections';}" value="Search Elections" id="SE">
+          <input name="Go" type="submit" class="siteSearchBtn" title="Search" value="Go">
+          <input style="display:none" type="hidden" name="cof" value="FORID:10" >
+        </form>
+        </div>
+        <div class="menu-header">
+          <ul id="menu-test" class="menu">
+            <li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360"><a href="https://www.elections.virginia.gov/index.html">Home</a></li>
+           <li id="menu-item-339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-339"><a href="https://www.elections.virginia.gov/registration/index.html">Registration</a>
+              
+            </li>
+            <li id="menu-item-334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-334"><a href="https://www.elections.virginia.gov/casting-a-ballot/index.html">Casting a Ballot</a>
+              
+            </li>
+            <li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page  page_item page-item-29 current_page_item menu-item-has-children menu-item-322"><a href="https://www.elections.virginia.gov/candidatepac-info/index.html">Candidate/PAC Info</a></li>
+            <li id="menu-item-338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-338"><a href="/election-law/index.html">Election Law</a></li>
+        </ul>
+        </div>
+        <div class="menubutton"><span class="screenReaderOnly"><a title="Mobile menu" href="#menu" tabindex="6" accesskey="m">Menu</a></span> <a href="#">Menu</a> <a name="menu" class="hidden-alt-text">Menu</a>
+          <div class="menu-mobile-container">
+            <ul id="menu-mobile" class="menu">
+              <li id="menu-item-769" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-245 current_page_item menu-item-769"><a href="https://www.elections.virginia.gov/index.html">Home</a></li>
+              <li id="menu-item-768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-768"><a href="https://www.elections.virginia.gov/registration/index.html">Registration</a></li>
+              <li id="menu-item-767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-767"><a href="https://www.elections.virginia.gov/casting-a-ballot/index.html">Casting a Ballot</a></li>
+              <li id="menu-item-766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-766"><a href="https://www.elections.virginia.gov/resultsreports/index.html">Results/Reports</a></li>
+              <li id="menu-item-772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-772"><a href="https://www.elections.virginia.gov/candidatepac-info/index.html">Candidate/PAC Info</a></li>
+              <li id="menu-item-771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-771"><a href="https://www.elections.virginia.gov/election-law/index.html">Election Law</a></li>
+              <!--<li id="menu-item-780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="https://www.elections.virginia.gov/board/index.html">Board</a></li>
+              <li id="menu-item-770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-770"><a href="https://www.elections.virginia.gov/media/index.html">Media</a></li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content menuoverlay">
+    <hr>
+    <div class="content_container">
+      <div class="entry-header">
+        <h1 class="entry-title">Error $ErrorCode</h1> <!--<h1 class="entry-title">Error </h1>-->
+        <div class="breadcrumbs"> 
+          <!-- Breadcrumb NavXT 5.0.1 --> <a title="Virginia Department of Elections Home page" href="https://www.elections.virginia.gov" class="home">Virginia Department of Elections</a>  &gt; Error page</div>
+        <div>
+            <p></p>
+           
+        </div>
+        <div class="searchbar last">
+          <form action="https://www.elections.virginia.gov/search-results/index.html">
+          <input style="display:none" type="hidden" name="sitesearch" value="https://www.elections.virginia.gov">
+          <label for="SE2" class="label-hide">Search Elections</label>
+          <input name="q" type="text" class="navbar-search" onfocus="if (this.value == 'Search Elections') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search Elections';}" value="Search Elections" id="SE2">
+          <input name="Go" type="submit" class="siteSearchBtn" title="Search" value="Go">
+          <input style="display:none" type="hidden" name="cof" value="FORID:10">
+        </form>
+        </div>
+     </div>
+      <span class="screenReaderOnly"><a id="skipPoint" tabindex="7"></a></span>
+      <div class="clear"> </div>
+      <div class="sidebar">
+        <div id="secondary" class="widget-area"  >
+          <div id="SideLinks" class="links">
+            <div id="text-2" class="widget widget_text">
+            <div class="textwidget">
+                 
+                 
+              </div>
+            </div>
+            
+          </div>
+          <!-- #secondary --> 
+          
+        </div>
+      </div>
+      <div class="page_content">
+        <div id="primary" class="site-content">
+          <article id="post-1185" class="post-1185 page type-page status-publish hentry">
+            <div class="entry-content">
+              <p><strong>Due to unforeseen circumstances we are unable to process your request at this time. If you have any questions or concerns please <a href="https://www.elections.virginia.gov/contact-us/index.html" title="Contact Us">contact us</a>.</strong></p>
+         <hr class="plain">     
+          <p><font color="#003A5D">Reference # <span>$AKAMAI-REQ-ID</span></font></p>
+             
+            <!-- .entry-content -->
+         
+          
+        </div>
+      </div>
+    </div><!--extra1?--></div>
+    <hr class="blue">
+  </div>
+<div class="clear"> </div>
+<div class="footercontainer">
+  <div class="footer">
+    <div class="footerfeature_container">
+      <div class="footerfeature_cell footerone">
+        <div class="footerfeature_info">
+         
+        <p>Organization</p>
+        <ul>
+        <li><a title="About the Virginia Department of Elections"  href="https://www.elections.virginia.gov/contact-us/about.html">About Us</a></li>
+        <li><a title="Contact the Virginia Department of Elections"  href="https://www.elections.virginia.gov/contact-us/index.html">Contact Us</a></li>
+        <li> <a title="Freedom of Information Act (FOIA)" href="https://www.elections.virginia.gov/freedom-of-information-act/index.html">Freedom of Information Act</a> </li> 
+        <li><a title="Media Resources" href="https://www.elections.virginia.gov/contact-us/media-resources/index.html">Media / Press Resources</a> </li>
+        
+        <li><br>
+        Washington Building <br>
+        1100 Bank Street, First Floor <br>
+        Richmond, VA 23219 </li></ul>
+        </div>
+      </div>
+      <div class="footerfeature_cell footertwo">
+        <div class="footerfeature_info">
+          
+          <p>Social Media</p>
+        <ul class="socialmedia">
+          <li class="facebook"><a title="Department of Elections' Facebook" href="https://www.facebook.com/VirginiaELECT" target="new">Facebook</a> </li>
+          <li class="twitter"><a title="Department of Elections' Twitter" href="https://twitter.com/vaELECT" target="new">Twitter</a> </li>
+          <li class="youtube"><a title="Department of Elections' YouTube" href="http://www.youtube.com/user/SBEvirginia" target="new">YouTube</a> </li>
+          <li class="linkedin"><a title="Department of Elections' LinkedIn" href="https://www.linkedin.com/company/virginia-department-of-elections/" target="new">LinkedIn</a> </li></ul>
+          
+        </div>
+      </div>
+       <div class="footerfeature_cell footerthree last omegalogo">
+         
+          <img  src="https://www.elections.virginia.gov/media/Main-Site/Site-Assets/Images/Logos/footerViVo.png" alt="Virginia is for Voters!" >
+         
+      </div> 
+      <div class="clear"><br>
+      </div>
+      
+      <div class="subfooter">
+        <p>©2019 Virginia Department of Elections. All rights reserved - <a title="Department of Elections Privacy Policy" href="/privacy-policy/index.html">Privacy Policy</a>
+        
+        <br>
+        This site is<a href="https://www.w3.org/TR/WCAG20/" target="_blank"> WCAG 2.0 Level AA</a> compliant</p></div>
+    </div>
+  </div>
+</div>
+ 
+ 
+<script type="text/javascript">
+/**
+ * navigation.js
+ *
+ * Handles toggling the navigation menu for small screens.
+ */
+( function() {
+	var nav = document.getElementById( 'site-navigation' ), button, menu;
+	if ( ! nav )
+		return;
+	button = nav.getElementsByTagName( 'h3' )[0];
+	menu   = nav.getElementsByTagName( 'ul' )[0];
+	if ( ! button )
+		return;
+
+	// Hide button if menu is missing or empty.
+	if ( ! menu || ! menu.childNodes.length ) {
+		button.style.display = 'none';
+		return;
+	}
+
+	button.onclick = function() {
+		if ( -1 == menu.className.indexOf( 'nav-menu' ) )
+			menu.className = 'nav-menu';
+
+		if ( -1 != button.className.indexOf( 'toggled-on' ) ) {
+			button.className = button.className.replace( ' toggled-on', '' );
+			menu.className = menu.className.replace( ' toggled-on', '' );
+		} else {
+			button.className += ' toggled-on';
+			menu.className += ' toggled-on';
+		}
+	};
+} )();
+
+
+
+</script> 
+ 
+</body>
+</html>
